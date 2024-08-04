@@ -183,6 +183,10 @@ body {
 .sectionHeader h2 {
   font-size: 2rem;
 }
+.ourServices p {
+  padding: 2rem 0;
+  font-size: 1.125rem;
+}
 /* Animate on Scroll */
 .hidden {
   opacity: 0;
