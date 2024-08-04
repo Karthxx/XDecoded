@@ -150,6 +150,13 @@ body {
   align-items: center;
   padding: 9.375rem 1.875rem 1.25rem 1.875rem;
 }
+.section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3.75rem 1.875rem 3.75rem 1.875rem;
+}
+
 .heroText {
   font-size: 5rem;
   text-align: center;
@@ -173,3 +180,19 @@ body {
   border: 0;
   text-decoration: none;
 }
+.sectionHeader h2 {
+  font-size: 2rem;
+}
+/* Animate on Scroll */
+.hidden {
+  opacity: 0;
+  filter: blur(5px);
+  transform: translateY(15%);
+  transition: all 1s;
+}
+.show {
+  opacity: 1;
+  filter: blur(0);
+  transform: translateY(0);
+}
+/* Animate on Scroll */
